@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/Odin_Fusion_backend"
+]
+resolver = "2"
