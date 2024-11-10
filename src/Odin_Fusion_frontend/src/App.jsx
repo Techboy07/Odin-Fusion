@@ -15,7 +15,7 @@ function App() {
 
   return (
     <main>
-      <h1>Odin Fusion Clean Table</h1>
+      <h1 className='text-red-500 font-bold text-2xl'>Odin Fusion Clean Table</h1>
     </main>
   );
 }
