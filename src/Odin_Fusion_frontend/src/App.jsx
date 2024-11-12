@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Odin_Fusion_backend } from 'declarations/Odin_Fusion_backend';
 
+import Home from './pages/Home';
+
 function App() {
   // const [greeting, setGreeting] = useState('');
 
@@ -15,7 +17,7 @@ function App() {
 
   return (
     <main>
-      <h1 className='text-red-500 font-bold text-2xl'>Odin Fusion Clean Table</h1>
+      <Home/>
     </main>
   );
 }
