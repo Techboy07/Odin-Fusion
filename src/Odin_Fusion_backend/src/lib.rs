@@ -16,8 +16,8 @@ use std::str::FromStr;
 use super::common::transform_network;
 
 
-/// Returns the P2PKH address of this canister at the given derivation path.
-pub async fn get_p2pkh_address(
+
+pub async fn get_p2pkh_address(   /// this returns the P2PKH address of this canister at the given derivation path.
     network: BitcoinNetwork,
     key_name: String,
     derivation_path: Vec<Vec<u8>>,
