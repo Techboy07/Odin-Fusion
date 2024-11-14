@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-bg": "url('/images/backgrounds/Up bg.svg')",
+      },
     },
   },
   plugins: [],
